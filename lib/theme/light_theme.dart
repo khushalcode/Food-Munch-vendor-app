@@ -16,7 +16,7 @@ ThemeData light = ThemeData(
   popupMenuTheme: const PopupMenuThemeData(color: Color(0xFFFFFFFF), surfaceTintColor: Color(0xFFFFFFFF)),
   dialogTheme: const DialogThemeData(surfaceTintColor: Color(0xFFFFFFFF)),
   floatingActionButtonTheme: const FloatingActionButtonThemeData(
-    shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(500)),
+    shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(500))),
     backgroundColor: Color(0xFF7ED321),
     foregroundColor: Colors.white,
   ),

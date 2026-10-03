@@ -218,7 +218,6 @@ class _CustomVideoPlayerWidgetState extends State<CustomVideoPlayerWidget> {
                         children: [
                           Positioned.fill(
                             child: ColoredBox(
-                              isAntiAlias: false,
                               color: widget.backgroundColor ?? Colors.black,
                               child: VideoPlayer(_controller),
                             ),
